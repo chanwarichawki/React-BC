@@ -1,0 +1,2 @@
+ra
+export default Article
