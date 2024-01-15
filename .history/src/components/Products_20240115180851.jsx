@@ -1,5 +1,4 @@
 import Counter from "./Counter";
-import Product from "./Product";
 
 function Products() {
 
@@ -9,7 +8,7 @@ function Products() {
     {
       id: 1,
       label: "iphone 13",
-      price: 2000
+      price: 2900
     },
     {
       id: 2,
@@ -31,7 +30,7 @@ function Products() {
         <div> 
         {products.map((product, index) => (
           <div key={index}>
-            <Product label={product.label} price={product.price}  />
+            <product />
           </div>
         ))}
         </div>

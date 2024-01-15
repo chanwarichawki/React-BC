@@ -9,7 +9,7 @@ function Products() {
     {
       id: 1,
       label: "iphone 13",
-      price: 2000
+      price: 
     },
     {
       id: 2,
